@@ -1,0 +1,157 @@
+/* Global Use */
+.additional-info-text {
+  font-size: small;
+  color: gray;
+}
+
+.text {
+  font-size: 15px;
+  color: grey;
+  line-height: 160%;
+}
+
+.card-round {
+  border-radius: 25px;
+}
+
+/* Section use */
+
+.nav-item {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: small;
+  margin-right: 15px;
+}
+
+.jumbotron {
+  min-height: 100vh;
+  background: url(../assets/img/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero-row {
+  margin-top: 150px;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.hero-subtitle {
+  font-size: 15px;
+}
+
+.hero-text {
+  font-size: 12px;
+}
+
+.hero-btn-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.section {
+  padding: 10% 15% 0 15%;
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+.section-text {
+  margin-top: 30px;
+  font-size: 15px;
+  color: grey;
+  line-height: 160%;
+}
+
+.btn-section-link {
+  font-size: small;
+}
+
+.btn-section {
+  font-size: small;
+  font-weight: bold;
+}
+
+.section-three-bg {
+  background: url(../assets/img/video-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.left-bg {
+  background-image: url(../assets/img/left-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.right-bg {
+  background-image: url(../assets/img/right-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.section-seven-bg {
+  background-image: url(../assets/img/section-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.footer {
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.testimonial-card {
+  background-image: url(../assets/img/testimonial-card.png);
+}
+
+.parallax {
+  background-image: url(../assets/img/parallax-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin-top: 100px;
+}
+
+.footer-link {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.footer-link li {
+  margin-top: 10px;
+}
+
+.footer-link li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-link li a:hover {
+  color: blue;
+}
+
+@media screen and (min-width: 768) {
+  .hero-title {
+    font-size: 15px;
+  }
+}
